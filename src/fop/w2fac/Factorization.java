@@ -6,7 +6,7 @@ public class Factorization extends MiniJava {
 	        int x=readInt();
         int k=2;
         if(n<=1) {writeConsole("Error: n>1 expected!");}
-        while (x!=1)
+        while (x>1)
         {
             if(x%k==0)
             {
