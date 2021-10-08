@@ -9,7 +9,14 @@ public class Factorization extends MiniJava {
         {
             if(x%k==0)
             {
-                x=x/k; writeConsole(k+" ");
+                if(x==k){
+                x=x/k;
+                
+                writeConsole(k);
+                else {
+                    x/=k;
+                    writeConsole(k+" ");
+                }
             }
             else {k++;}
         }
