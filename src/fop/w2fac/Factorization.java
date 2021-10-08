@@ -3,6 +3,15 @@ package fop.w2fac;
 public class Factorization extends MiniJava {
 
     public static void main(String[] args){
-	// TODO
+	        int x=readInt();
+        int k=2;
+        while (x!=1)
+        {
+            if(x%k==0)
+            {
+                x=x/k; System.out.print(k+" ");
+            }
+            else {k++;}
+        }
     }
 }
