@@ -19,7 +19,7 @@ public class Factorization extends MiniJava {
                     writeConsole(k+" ");
                 }
             }
-            else {k++;}
+            else {k++;} //eratostene
         }
     }
 }
