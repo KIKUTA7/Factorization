@@ -12,7 +12,7 @@ public class Factorization extends MiniJava {
                 if(x==k){
                 x=x/k;
                 
-                writeConsole(k);
+                writeConsole(k);}
                 else {
                     x/=k;
                     writeConsole(k+" ");
