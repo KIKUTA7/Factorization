@@ -1,0 +1,5 @@
+Evey ntural number n > 1 either is a prime number or can be written as a product of primes. For determining a decomposition of a number n into its prime factors, n is going to be successively divided by all natural numbers starting with 2. If a prime factor t is found, t is immediately printed to the output. If the quotient n/t is greater than 1, then this quotient is subsequently decomposed into primes.
+
+Write a MiniJava program that first prints "Please insert a number:" to the screen in order to read a natural number n > 1 from the input which subsequently is decomposed into primes. Your program should print all prime factors to the console, separated by blankes. If n <= 1, the error message "Error: n>1 expected!" should be printed to the console.
+
+Hint: Use the MiniJava method readInt() for reading numbers. You may employ the method writeConsole() for outputting onto the console without triggering carrage return. By means of writeLineConsole() you may produce output followed by carrage return.
